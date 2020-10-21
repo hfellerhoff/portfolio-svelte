@@ -57,6 +57,9 @@
 
 <svelte:head>
   <title>{song.title} | {song.composer}</title>
+  <meta
+    name="description"
+    content={`Performance of ${song.title} by Henry Fellerhoff.`} />
 </svelte:head>
 
 <PageHeader

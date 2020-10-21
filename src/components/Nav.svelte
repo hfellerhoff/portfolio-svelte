@@ -29,7 +29,7 @@
   }
 
   #f {
-    color: #ac96c9;
+    color: #a876d9;
   }
 
   ul {

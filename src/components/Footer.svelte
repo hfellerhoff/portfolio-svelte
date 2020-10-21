@@ -20,7 +20,7 @@
     text-decoration: none;
     display: block;
     transition: 0.1s;
-    color: #8c8494;
+    color: #6c6673;
     padding: 0.5em 1em;
     margin: 0em 0.5em;
     border-radius: 4px;
@@ -28,7 +28,7 @@
 
   a:hover {
     background: #e8e8e8;
-    color: #6e637a;
+    color: #5a5066;
   }
 
   p {
@@ -37,7 +37,7 @@
   }
 
   p > span {
-    color: #b194cd;
+    color: #a876d9;
   }
 </style>
 

@@ -20,6 +20,14 @@
     border-radius: 50%;
   }
 
+  @media screen and (max-width: 600px) {
+    img {
+      height: 6rem;
+      width: 6rem;
+      border-radius: 50%;
+    }
+  }
+
   div {
     margin: 4em auto 6em auto;
     max-width: 40rem;

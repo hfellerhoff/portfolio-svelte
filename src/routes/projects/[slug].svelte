@@ -39,6 +39,7 @@
 
 <svelte:head>
   <title>{project.title} | Projects</title>
+  <meta name="description" content={project.subtitle} />
 </svelte:head>
 
 <PageHeader

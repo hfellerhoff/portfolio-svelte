@@ -15,6 +15,8 @@
   import ProjectList from '../../components/ProjectList.svelte';
 
   export let projects: Project[];
+  const description =
+    'Projects that strive to improve the world, one line of code at a time.';
 </script>
 
 <style>
@@ -22,11 +24,10 @@
 
 <svelte:head>
   <title>Projects | Henry Fellerhoff</title>
+  <meta name="description" content={description} />
 </svelte:head>
 
-<PageHeader
-  title="Projects"
-  subtitle="Projects that strive to improve the world, one line of code at a time." />
+<PageHeader title="Projects" subtitle={description} />
 
 <ProjectList title="Featured" {projects} featured />
 

@@ -17,11 +17,11 @@
     user-select: none;
   }
   .primary {
-    background: #b194cd;
+    background: #a976d9;
   }
 
   .primary:hover {
-    background: #9b6acd;
+    background: #944ad9;
   }
 
   .secondary {

@@ -34,7 +34,7 @@
     max-width: 48em;
   }
 
-  #item {
+  .item {
     flex: 1;
   }
 
@@ -57,7 +57,7 @@
     text-decoration: underline;
   }
 
-  #icon {
+  .icon {
     font-size: 2em;
   }
 
@@ -122,13 +122,13 @@
     {#each processContent(contentList) as content}
       {#if !featured || (featured && content.featured)}
         <li>
-          <a id="item" rel="prefetch" href="{page}/{content.slug}">
+          <a class="item" rel="prefetch" href="{page}/{content.slug}">
             <div id="flex">
               {#if content.image}
                 <img src={`${page}/${content.image}`} alt={content.title} />
               {/if}
               {#if content.icon}
-                <h6 id="icon">{content.icon}</h6>
+                <p class="icon">{content.icon}</p>
               {/if}
               <div id="text-container">
                 <h3>{content.title}</h3>

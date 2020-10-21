@@ -27,11 +27,11 @@
   }
 
   #markdown-content :global(li) {
-    margin: 0 0 0.25em 0;
+    margin: 0 0 0.5em 0;
   }
 
   #markdown-content :global(a) {
-    color: #a33cff;
+    color: #9c4ee6;
     font-weight: 700;
     text-decoration: none;
   }
@@ -46,7 +46,7 @@
   }
 
   :global(#markdown-content a:hover) {
-    color: #792dbd;
+    color: #8620e6;
   }
 </style>
 

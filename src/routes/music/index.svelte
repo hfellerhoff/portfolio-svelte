@@ -14,6 +14,7 @@
   import type { Song } from '../../../models/Song';
 
   export let songs: Song[];
+  const description = 'A collection of classical, popular, and original works.';
 </script>
 
 <style>
@@ -21,11 +22,10 @@
 
 <svelte:head>
   <title>Music | Henry Fellerhoff</title>
+  <meta name="description" content={description} />
 </svelte:head>
 
-<PageHeader
-  title="Music"
-  subtitle="A collection of classical, popular, and original works." />
+<PageHeader title="Music" subtitle={description} />
 
 <MusicList {songs} title="Featured" featured />
 

@@ -47,6 +47,9 @@
 
 <svelte:head>
   <title>Henry Fellerhoff</title>
+  <meta
+    name="description"
+    content="Henry Fellerhoff is a Chicago-based developer, vocalist, and bagel lover." />
 </svelte:head>
 
 <div class="hero">
