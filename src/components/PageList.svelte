@@ -59,6 +59,7 @@
 
   .icon {
     font-size: 2em;
+    margin: 0;
   }
 
   ul {
@@ -87,6 +88,8 @@
   img {
     height: 3em;
     width: 3em;
+    min-height: 3em;
+    min-width: 3em;
     border-radius: 50%;
   }
 
