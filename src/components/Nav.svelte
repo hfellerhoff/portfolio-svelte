@@ -20,6 +20,14 @@
     margin: 0;
   }
 
+  #logo {
+    margin-left: -0.5em;
+  }
+
+  #h {
+    color: #403e3a;
+  }
+
   #f {
     color: #ac96c9;
   }
@@ -45,23 +53,22 @@
     text-decoration: none;
     display: block;
     transition: 0.1s;
-  }
-
-  li > a {
     padding: 0.5em 1em;
     border-radius: 4px;
+    font-weight: 600;
+    color: #6c6673;
   }
 
-  li > a:hover {
+  a:hover {
     background: #e8e8e8;
-    color: #33312d;
+    color: #5a5066;
   }
 
   @media screen and (max-width: 600px) {
     li {
       margin-left: 0em;
-      font-size: 0.8em;
-      font-weight: 500;
+      font-size: 0.9em;
+      font-weight: 400;
     }
   }
 
@@ -69,13 +76,13 @@
     position: relative;
     display: inline-block;
     background: #e8e8e8;
-    color: #33312d;
+    color: #5a5066;
     border-radius: 4px;
   }
 </style>
 
 <nav>
-  <a href=".">
+  <a href="." id="logo">
     <h1><span id="h">H</span><span id="f">F</span></h1>
   </a>
   <ul>
@@ -94,11 +101,11 @@
         aria-current={segment === 'music' ? 'page' : undefined}
         href="music">Music</a>
     </li>
-    <li>
+    <!-- <li>
       <a
         rel="prefetch"
         aria-current={segment === 'writing' ? 'page' : undefined}
         href="writing">Writing</a>
-    </li>
+    </li> -->
   </ul>
 </nav>

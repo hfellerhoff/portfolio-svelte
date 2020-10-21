@@ -33,6 +33,12 @@
     font-size: 2.5em;
   }
 
+  @media screen and (max-width: 600px) {
+    .hero h1 {
+      font-size: 2em;
+    }
+  }
+
   .hero p {
     font-size: 1.15em;
     margin-bottom: 0.5em;

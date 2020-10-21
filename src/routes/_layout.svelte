@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Footer from '../components/Footer.svelte';
   import Nav from '../components/Nav.svelte';
 
   export let segment: string;
@@ -24,4 +25,5 @@
   <main>
     <slot />
   </main>
+  <Footer />
 </div>

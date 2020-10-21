@@ -1,12 +1,16 @@
 <script context="module" lang="ts">
   export async function preload({ params }) {
+    const songs: Song[] = await this.fetch(
+      `music.json`
+    ).then((r: { json: () => any }) => r.json());
+
     // the `slug` parameter is available because
     // this file is called [slug].svelte
     const res = await this.fetch(`music/${params.slug}.json`);
     const data = await res.json();
 
     if (res.status === 200) {
-      return { song: data };
+      return { song: data, songs };
     } else {
       this.error(res.status, data.message);
     }
@@ -15,12 +19,13 @@
 
 <script lang="ts">
   import type { Song } from '../../../models/Song';
+  import MusicList from '../../components/MusicList.svelte';
   import PageHeader from '../../components/PageHeader.svelte';
 
   export let song: Song;
-  const subtitle = song.work
-    ? `${song.composer} • ${song.work}`
-    : song.composer;
+  export let songs: Song[];
+  const getSubtitle = (work: undefined | string, composer: string) =>
+    work ? `${composer} • ${work}` : composer;
 </script>
 
 <style>
@@ -43,49 +48,24 @@
       height: 100%;
     }
   }
-  /*
-		By default, CSS is locally scoped to the component,
-		and any unused styles are dead-code-eliminated.
-		In this page, Svelte can't know which elements are
-		going to appear inside the {{{song.html}}} block,
-		so we have to use the :global(...) modifier to target
-		all elements inside .content
-	*/
-  /* .content :global(h2) {
-    font-size: 1.4em;
-    font-weight: 500;
-  }
 
-  .content :global(pre) {
-    background-color: #f9f9f9;
-    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
-    padding: 0.5em;
-    border-radius: 2px;
-    overflow-x: auto;
+  #video {
+    margin: 0em auto 4em auto;
+    max-width: 48em;
   }
-
-  .content :global(pre) :global(code) {
-    background-color: transparent;
-    padding: 0;
-  }
-
-  .content :global(ul) {
-    line-height: 1.5;
-  }
-
-  .content :global(li) {
-    margin: 0 0 0.5em 0;
-  } */
 </style>
 
 <svelte:head>
   <title>{song.title} | {song.composer}</title>
 </svelte:head>
 
-<PageHeader title={song.title} {subtitle} compact />
+<PageHeader
+  title={song.title}
+  subtitle={getSubtitle(song.work, song.composer)}
+  compact />
 
 {#if song.youtubeEmbedUrl}
-  <div style="--aspect-ratio: 16/9;">
+  <div style="--aspect-ratio: 16/9;" id="video">
     <iframe
       title={`YouTube video of ${song.title}`}
       width="1600"
@@ -96,6 +76,8 @@
       allowfullscreen />
   </div>
 {/if}
+
+<MusicList title="Other Music" exclude={[song.title]} {songs} showLink />
 
 <!-- {#if song.html}
   <div class="content">

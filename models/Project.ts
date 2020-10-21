@@ -1,11 +1,7 @@
-export interface Project {
-    slug: string
-    title: string
+import type { Content } from "./Content";
+
+export interface Project extends Content {
     subtitle: string
-    logo: string
-    featured?: true
-    html: any
     url?: string
     source?: string
-    date: string
 }
