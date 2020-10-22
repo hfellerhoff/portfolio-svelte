@@ -59,6 +59,7 @@
     <a href="music">Music</a>
     <a href="mailto:henryfellerhoff@gmail.com">Email</a>
     <a href="https://ko-fi.com/henryfellerhoff">Support</a>
+    <a href="https://simpleanalytics.com/henryfellerhoff.com">Analytics</a>
   </div>
   <div>
     <a href="/">
