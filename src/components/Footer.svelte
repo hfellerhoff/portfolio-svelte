@@ -1,6 +1,6 @@
 <style>
   footer {
-    padding: 1em 1em 6em 1em;
+    padding: 0em 1em 6em 1em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 2em;
+    margin: 1em 0em 0em 0em;
+    padding: 0em 2em;
     flex-wrap: wrap;
   }
 
@@ -34,10 +35,20 @@
   p {
     font-weight: 700;
     font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    color: #403e3a;
   }
 
   p > span {
     color: #a876d9;
+  }
+
+  a:hover p {
+    color: #302f2b;
+  }
+  a:hover p > span {
+    color: #9864cd;
   }
 </style>
 
@@ -47,7 +58,11 @@
     <a href="projects">Projects</a>
     <a href="music">Music</a>
     <a href="mailto:henryfellerhoff@gmail.com">Email</a>
-    <a href="https://ko-fi.com/henryfellerhoff">Donate</a>
+    <a href="https://ko-fi.com/henryfellerhoff">Support</a>
   </div>
-  <p>Henry <span>Fellerhoff</span></p>
+  <div>
+    <a href="/">
+      <p>Henry <span>Fellerhoff</span></p>
+    </a>
+  </div>
 </footer>
