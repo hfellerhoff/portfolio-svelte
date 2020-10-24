@@ -38,8 +38,8 @@ body {
   --text-nav-hover: var(--text);
   --divider: #6e7073;
 
-  --button-primary: #a976d9;
-  --button-primary-hover: #944ad9;
+  --button-primary: #a062d9;
+  --button-primary-hover: #8f41d9;
   --button-secondary: #403e3a;
   --button-secondary-hover: #33312d;
   --link: #bd84f3;
@@ -113,8 +113,8 @@ body.theme--dark {
   --text-nav-hover: var(--text);
   --divider: #6e7073;
 
-  --button-primary: #a976d9;
-  --button-primary-hover: #944ad9;
+  --button-primary: #a062d9;
+  --button-primary-hover: #8f41d9;
   --button-secondary: #403e3a;
   --button-secondary-hover: #33312d;
   --link: #bd84f3;
