@@ -1,4 +1,6 @@
 <script lang="ts">
+  import DarkModeButton from './DarkModeButton.svelte';
+
   export let segment: string;
 </script>
 
@@ -25,16 +27,19 @@
   }
 
   #h {
-    color: #403e3a;
+    color: var(--text);
   }
 
   #f {
-    color: #a876d9;
+    color: var(--button-primary);
   }
 
   ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   /* clearfix */
@@ -56,12 +61,12 @@
     padding: 0.5em 1em;
     border-radius: 4px;
     font-weight: 600;
-    color: #6c6673;
+    color: var(--text-nav);
   }
 
   a:hover {
-    background: #e8e8e8;
-    color: #5a5066;
+    background: var(--background-hover);
+    color: var(--text-nav-hover);
   }
 
   @media screen and (max-width: 600px) {
@@ -75,8 +80,8 @@
   [aria-current] {
     position: relative;
     display: inline-block;
-    background: #e8e8e8;
-    color: #5a5066;
+    background: var(--background-hover);
+    color: var(--text-nav-hover);
     border-radius: 4px;
   }
 </style>
@@ -101,11 +106,8 @@
         aria-current={segment === 'music' ? 'page' : undefined}
         href="music">Music</a>
     </li>
-    <!-- <li>
-      <a
-        rel="prefetch"
-        aria-current={segment === 'writing' ? 'page' : undefined}
-        href="writing">Writing</a>
-    </li> -->
+    <li>
+      <DarkModeButton />
+    </li>
   </ul>
 </nav>

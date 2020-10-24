@@ -5,7 +5,7 @@
   }
 
   #markdown-content :global(h1, h2) {
-    border-bottom: 2px solid #d5d9df;
+    border-bottom: 2px solid var(--divider);
     border-radius: 1px;
     margin: 2em 0em 0.5em 0em;
   }
@@ -31,22 +31,22 @@
   }
 
   #markdown-content :global(a) {
-    color: #9c4ee6;
+    color: var(--link);
     font-weight: 700;
     text-decoration: none;
   }
   #markdown-content :global(code) {
     font-family: menlo, inconsolata, monospace;
     font-size: calc(1em - 2px);
-    color: #1b1d26;
-    background-color: #f6f8fb;
-    border: 1px solid #d5d9df;
+    color: var(--code);
+    background-color: var(--code-background);
+    border: 1px solid var(--code-border);
     padding: 0.2em 0.4em;
     border-radius: 5px;
   }
 
   :global(#markdown-content a:hover) {
-    color: #8620e6;
+    color: var(--link-hover);
   }
 </style>
 

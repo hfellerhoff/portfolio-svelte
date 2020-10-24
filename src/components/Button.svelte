@@ -2,6 +2,11 @@
   export let type: 'primary' | 'secondary' = 'primary';
   export let href: string | undefined;
   export let label: string;
+
+  const primaryColor = type === 'primary' ? '#a976d9' : '#403e3a';
+  const primaryColorHover = type === 'primary' ? '#944ad9' : '#262014';
+  const secondaryColor = type === 'primary' ? '#a976d9' : '#403e3a';
+  const secondaryColorHover = type === 'primary' ? '#944ad9' : '#262014';
 </script>
 
 <style>
@@ -17,20 +22,24 @@
     user-select: none;
   }
   .primary {
-    background: #a976d9;
+    /* background: #a976d9; */
+    background: var(--button-primary);
   }
 
   .primary:hover {
-    background: #944ad9;
+    /* background: #944ad9; */
+    background: var(--button-primary-hover);
   }
 
   .secondary {
     margin-left: 0.5em;
-    background: #403e3a;
+    /* background: #403e3a; */
+    background: var(--button-secondary);
   }
 
   .secondary:hover {
-    background: #262014;
+    /* background: #262014; */
+    background: var(--button-secondary-hover);
   }
 
   .disabled {

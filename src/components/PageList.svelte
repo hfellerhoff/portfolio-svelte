@@ -51,7 +51,7 @@
   }
 
   #top-container a {
-    color: #572795;
+    color: var(--link);
   }
   #top-container a:hover {
     text-decoration: underline;
@@ -112,7 +112,7 @@
 
   a:hover h3,
   a:hover p {
-    color: #792dbd;
+    color: var(--link);
   }
 </style>
 

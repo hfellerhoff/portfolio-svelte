@@ -2181,6 +2181,11 @@ svelte-check@^1.0.46:
     vscode-languageserver-types "3.15.1"
     vscode-uri "2.1.2"
 
+svelte-icons@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/svelte-icons/-/svelte-icons-2.1.0.tgz#6f2ec72f1d5c8b2de1a4b8a822c95bcb2f701aca"
+  integrity sha512-rHPQjweEc9fGSnvM0/4gA3pDHwyZyYsC5KhttCZRhSMJfLttJST5Uq0B16Czhw+HQ+HbSOk8kLigMlPs7gZtfg==
+
 svelte-language-server@*:
   version "0.10.139"
   resolved "https://registry.yarnpkg.com/svelte-language-server/-/svelte-language-server-0.10.139.tgz#c7d7c359fd4037a7d1a0333b0da0bbe8ac8805c0"
