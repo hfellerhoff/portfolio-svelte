@@ -75,7 +75,10 @@
   }
 </style>
 
-<button on:click={toggleColorMode} use:checkTheme>
+<button
+  on:click={toggleColorMode}
+  use:checkTheme
+  aria-label="toggle color mode">
   <div in:fade>
     {#if theme === 'light'}
       <IoIosMoon />
