@@ -32,6 +32,6 @@ B.S. Computer Science, B.A. Vocal Performance _(Graduation May 2022)_
 - **October 2019**: Participant in the [Dare Mighty Things](https://www.daremightythings.co/hackathon.html) hackathon, building a [sound sampling app](https://github.com/hfellerhoff/sound-sampler) with React Native in 24 hours.
 - **April 2019**: Built one of my first major projects, an [android app prototype](https://github.com/hfellerhoff/JoinMe) that helps students find and hang out with friends on campus.
 - **2018**: Began classes at [Loyola University Chicago](https://www.luc.edu/) as an incoming freshman.
-- **2014 – 2018**: Attended high school at [St. Xavier High School](https://www.stxavier.org/), taking my first programming classes and immediately becomming hooked.
+- **2014 – 2018**: Attended high school at [St. Xavier High School](https://www.stxavier.org/), where I took my first programming classes and became hooked.
 - **2012 – 2014**: Attended [Walnut Hills High School](http://www.walnuthillseagles.com/) for middle school, where I first started singing.
 - **1999**: Born in Cincinnati, Ohio.
