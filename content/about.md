@@ -8,7 +8,7 @@ subtitle: Hey, I'm Henry - a developer and vocalist passionate about creating mu
 
 ### Loyola University Chicago
 
-B.S. Computer Science, B.A. Vocal Performance _(Graduation May 2022)_
+B.S. Computer Science, B.A. Vocal Performance _(Expected Graduation May 2022)_
 
 - **Awards**: Dean’s List
 - **Courses**: Data Structures and Algorithms, Object-Oriented Programming, Discrete Structures, Programming Languages, Computer Systems, Design/Analysis Computer Algorithms, Technical Writing
