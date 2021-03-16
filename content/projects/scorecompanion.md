@@ -3,7 +3,7 @@ slug: 'scorecompanion'
 title: 'Score Companion'
 subtitle: 'Sheet music aggregator and search tool'
 image: 'scorecompanion.png'
-featured: true
+featured: false
 url: 'https://www.scorecompanion.com/'
 source: 'https://github.com/hfellerhoff/scorecompanion'
 date: 2020-06
