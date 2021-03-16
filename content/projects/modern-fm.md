@@ -1,7 +1,7 @@
 ---
 slug: 'modern-fm'
 title: 'Modern.fm'
-subtitle: 'Custom and pre-made piano loops'
+subtitle: 'Company selling instrumental loops to musicians (co-founded)'
 image: 'modernfm.png'
 featured: true
 url: 'https://www.modern.fm/'
