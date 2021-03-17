@@ -4,95 +4,97 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
   <loc>https://www.henryfellerhoff.com/</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/.</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/about/</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/projects/</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/music/</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.henryfellerhoff.com/projects/modern-fm/</loc>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/projects/listentogether/</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.henryfellerhoff.com/projects/scorecompanion/</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/projects/openipa/</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.henryfellerhoff.com/music/dodie-beinghonest/</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <loc>https://www.henryfellerhoff.com/music/strauss-freundlichevision/</loc>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/about/.</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/projects/twanalyze/</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/projects/.</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/music/.</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.henryfellerhoff.com/projects/modern-fm/.</loc>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/projects/listentogether/.</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.henryfellerhoff.com/projects/scorecompanion/.</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/projects/openipa/.</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.henryfellerhoff.com/music/dodie-beinghonest/.</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <loc>https://www.henryfellerhoff.com/music/strauss-freundlichevision/.</loc>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.henryfellerhoff.com/projects/twanalyze/.</loc>
-  <lastmod>2020-10-22T21:02:30+00:00</lastmod>
+  <lastmod>2021-03-17T03:14:19+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
